@@ -10,10 +10,17 @@
         content="Welcome to the personal portfolio of Thep Nyuon Thep, known as Thep Williams and Jaythiko. Explore my background, education, technology interests, and life lessons."
     >
     <meta name="author" content="Thep Nyuon Thep">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#e8f4fa">
 
     <title>Thep Nyuon Thep | Personal Portfolio</title>
-    <link rel="icon" type="image/png" href="WebTitle.jpg" loading="lazy">
+    <link rel="icon" type="image/png" href="Images/WebTitle.jpg">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    referrerpolicy="no-referrer"
+/>
+
 
 
     <link rel="stylesheet" href="styles.css">
@@ -40,13 +47,21 @@
                     <li><a href="#education">Education</a></li>
                     <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#quotes">Quotes</a></li>
-                    <li><a href="#galery">Galery</a></li>
+                    <li><a href="#reading-library">Reading</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
             <div class="header-actions">
-               
+               <button
+    class="theme-toggle"
+    type="button"
+    aria-label="Switch to dark mode"
+    aria-pressed="false"
+    title="Toggle dark mode"
+>
+    🌙
+</button>
 
                 <button
                     class="menu-toggle"
@@ -89,7 +104,7 @@
                             Discover My Story
                         </a>
 
-                        <a class="button button-outline" href="https://protect-your-info-online.netlify.app" target="_blank">
+                        <a class="button button-outline" href="https://protect-your-info-online.netlify.app" target="_blank" rel="noopener noreferrer">
                             Explore Security Website
                         </a>
                     </div>
@@ -98,7 +113,7 @@
                 <div class="hero-visual">
                     <div class="profile-image-placeholder">
                         <img
-                            src="profile.jpg"
+                            src="Images/profile.jpg"
                             alt="Thep Nyuon Thep at a university cafe"
                         >
                     </div>
@@ -312,28 +327,29 @@
             <div class="container">
                 <div class="section-heading">
                     <p class="eyebrow">WORDS TO LIVE BY</p>
-                    <h2 id="quotes-title">Life & Manhood</h2>
+                    <h2 id="quotes-title">Life &amp; Manhood</h2>
                     <p>
                         Reflections on character, responsibility, faith,
                         family, and becoming a better man.
                     </p>
                 </div>
-               </div>
+
                 <div class="quotes-grid">
                     <article class="quote-card">
                         <blockquote>
                             A man's character is revealed by what he does
                             when nobody is watching.
                         </blockquote>
-                        <p class="quote-category">Character & Integrity</p>
+                        <p class="quote-category">Character &amp; Integrity</p>
                     </article>
 
                     <article class="quote-card">
                         <blockquote>
                             Real strength is not just about standing tall;
-                            it is about taking responsibility & withstanding when life gets hard.
+                            it is about taking responsibility and standing firm
+                            when life gets hard.
                         </blockquote>
-                        <p class="quote-category">Manhood & Responsibility</p>
+                        <p class="quote-category">Manhood &amp; Responsibility</p>
                     </article>
 
                     <article class="quote-card">
@@ -341,8 +357,7 @@
                             Do not let yesterday's mistakes become tomorrow's
                             excuses. Learn from them, grow, and move forward.
                         </blockquote>
-                        <p class="quote-category">Growth & Discipline ~ Thep Williams</p>
-    
+                        <p class="quote-category">Growth &amp; Discipline — Thep Williams</p>
                     </article>
 
                     <article class="quote-card">
@@ -350,7 +365,7 @@
                             Success means little if you forget the people
                             who need your love, time, assistance, and presence.
                         </blockquote>
-                        <p class="quote-category">Family & Love</p>
+                        <p class="quote-category">Family &amp; Love</p>
                     </article>
 
                     <article class="quote-card">
@@ -358,7 +373,7 @@
                             Build a life your future family can respect,
                             not a life designed only to impress strangers.
                         </blockquote>
-                        <p class="quote-category">Purpose & Legacy ~ Ruot Uwar</p>
+                        <p class="quote-category">Purpose &amp; Legacy — Ruot Uwar</p>
                     </article>
 
                     <article class="quote-card">
@@ -366,7 +381,7 @@
                             Stay teachable. A wise man knows that growth
                             begins when pride stops doing the talking.
                         </blockquote>
-                        <p class="quote-category">Wisdom & Humility</p>
+                        <p class="quote-category">Wisdom &amp; Humility</p>
                     </article>
                 </div>
 
@@ -376,7 +391,234 @@
                 </p>
             </div>
         </section>
-      
+
+        <!-- READING LIBRARY -->
+<section
+    class="reading-library section"
+    id="reading-library"
+    aria-labelledby="reading-library-title"
+>
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">LEARNING NEVER STOPS</p>
+
+            <h2 id="reading-library-title">My Reading Library</h2>
+
+            <p>
+                Books I enjoy reading and books that inspire me
+                to grow, think differently, and become better.
+            </p>
+        </div>
+
+        <div class="books-grid">
+
+            <!-- ATOMIC HABITS -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="images/atomicHabits.jpg"
+                        alt="Cover of Atomic Habits by James Clear"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>Atomic Habits</h3>
+                    <p class="book-author">James Clear</p>
+
+                    <p>
+                        A book about building good habits,
+                        breaking bad ones, and making small
+                        improvements that lead to meaningful change.
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="PDFs/Atomic-habits.pdf"
+                        
+                    >
+                    
+                        Preview Book
+
+                    </button>
+               
+                </div>
+            </article>
+
+            <!-- THE MILLIONAIRE FASTLANE -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="Images/TheMillionaireFastlane.jpg"
+                        alt="Cover of The Millionaire Fastlane by MJ DeMarco"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>The Millionaire Fastlane</h3>
+                    <p class="book-author">MJ DeMarco</p>
+
+                    <p>
+                        A different perspective on wealth creation,
+                        entrepreneurship, financial independence,
+                        and building valuable businesses.
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="PDFs/The-Millionaire-Fastlane.pdf"
+                    >
+                        Preview Book
+                    </button>
+                </div>
+            </article>
+
+            <!-- THE 5 AM CLUB -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="Images/the5amClub.jpg"
+                        alt="Cover of The 5 AM Club by Robin Sharma"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>The 5 AM Club</h3>
+                    <p class="book-author">Robin Sharma</p>
+
+                    <p>
+                        A book exploring personal discipline,
+                        morning routines, productivity, and
+                        personal development.
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="books/previews/5am-club.pdf"
+                    >
+                        Preview Book
+                    </button>
+                </div>
+            </article>
+
+            <!-- DIGITAL MINIMALISM -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="Images/digitalMinimalism.jpg"
+                        alt="Cover of The Digital Minimalsm by Cal Newport"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>Digital Minimalism</h3>
+                    <p class="book-author">Cal Newport</p>
+
+                    <p>
+                        A book that explores how to take control of your digital life by reducing unnecessary technology
+                         use. It teaches readers to avoid digital distractions, use social media intentionally,
+                          and focus on meaningful activities.
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="PDFs/Digital-Minimalism.pdf"
+                    >
+                        Preview Book
+                    </button>
+                </div>
+            </article>
+            <!-- THE ALCHEMIST -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="Images/theAlchemist.jpg"
+                        alt="Cover of The Alchemist by Paulo Coelho"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>The Alchemist</h3>
+                    <p class="book-author">Paulo Coelho</p>
+
+                    <p>
+                        This inspirational novel follows Santiago, a young shepherd who travels in search 
+                        of hidden treasure. Along his journey, he discovers lessons about following dreams,
+                         trusting yourself, recognizing opportunities, and finding your true purpose.
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="PDFs/The-Alchemist-Paulo-Coelho.pdf"
+                    >
+                        Preview Book
+                    </button>
+                </div>
+            </article>
+            <!-- THE 5 AM CLUB -->
+            <article class="book-card">
+                <div class="book-cover">
+                    <img
+                        src="Images/The-Art-of_Letting-Go.jpg"
+                        alt="Cover of The Art of Letting Go by Miles Niska"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="book-details">
+                    <h3>The Art of Letting Go</h3>
+                    <p class="book-author">Miles Niska</p>
+
+                    <p>
+                        A practical personal-development book about releasing painful experiences,
+                         overcoming attachment to the past, and moving forward with greater emotional freedom.
+
+                    </p>
+
+                    <button
+                        class="button button-primary book-preview-trigger"
+                        type="button"
+                        data-preview="PDFs/The-Art-of-Letting Go.pdf"
+                    >
+                        Preview Book
+                    </button>
+                </div>
+            </article>
+            </div>
+    </div>
+</section>
+
+<!-- BOOK PREVIEW DIALOG -->
+<dialog id="book-preview-dialog" class="book-preview-dialog">
+    <div class="book-preview-header">
+        <h2 id="book-preview-title">Book Preview</h2>
+
+        <button
+            class="close-book-preview"
+            type="button"
+            aria-label="Close book preview"
+        >
+            &times;
+        </button>
+    </div>
+
+    <iframe
+        id="book-preview-frame"
+        title="Book preview"
+        src=""
+    ></iframe>
+</dialog>
+
         <!-- CONTACT -->
         <section
             class="contact section"
@@ -426,7 +668,7 @@
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >Facebook</a>
-                            <a href="https://wa.me//251978591336" 
+                            <a href="https://wa.me/251978591336" 
                             target="_blank" rel="noopener noreferrer">
                         WhatsApp</a>
                         </div>
