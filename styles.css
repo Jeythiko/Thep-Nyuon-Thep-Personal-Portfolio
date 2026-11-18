@@ -1,19 +1,16 @@
 :root {
     color-scheme: light;
 
-    --color-background: #f5fcff;
-    --color-surface: #e2edf5;
-    --color-surface-light: #e6eef4;
+    --color-background: #e8f4fa;
+    --color-surface: #f4f7f7;
+    --color-surface-light: #f4f4f4;
 
     --color-primary: #0b26f6;
     --color-primary-hover: #1316eb;
 
     --color-text: #142338;
-    --color-text-muted: #595e64;
-    --color-border: #e7eaf6; 
-
-    --color-success: #16834b;
-    --color-error: #c52d43;
+    --color-text-muted: #66686ce2;
+    --color-border: #b1b3b7; 
 
     --font-primary: Arial, Helvetica, sans-serif;
 
@@ -799,7 +796,12 @@ textarea:focus-visible {
     color: var(--color-error);
 }
 
-
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr 1fr;
+    grid-template-rows: 230px 230px;
+    gap: 13px;
+}
 /* =========================================================
    14. FOOTER
    ========================================================= */
